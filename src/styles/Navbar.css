@@ -1,0 +1,369 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main-container {
+    background-color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    gap: 16px;
+   width: 98%;
+height: 33px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    
+    width: 234px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    min-width: 250px;
+    flex: 1 1 300px;
+    max-width: 400px;
+    margin: 0 16px;
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    font-size: 16px;
+    min-width: 0;
+}
+
+.search-button {
+    background-color:rgba(128, 128, 128, 0.774);
+    color: white;
+    border: none;
+    padding: 10px 13px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cart-button,
+.login-button,
+.location-button {
+    background: none;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.cart-button img,
+.login-button img,
+.location-button img {
+    max-height: 20px;
+    margin-right: 5px;
+}
+
+.location-button select {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+    .nav-bar{
+    position: fixed;
+    z-index: 99;
+    background: #fff;
+}
+
+        .nav{
+            color: white;
+            padding: 10px 20px;
+            overflow-x: auto;
+            background-color: #d35400; 
+            font-family:Arial, Helvetica, sans-serif;
+            width: 100%;
+        }
+
+        .nav-list {
+            
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-item {
+            margin-right: 15px;
+            position: relative; 
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            display: block;
+        }
+
+        .nav-link:hover {
+            background-color: white;
+            color: orangered;
+        }
+.login-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #d35400;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #fcfafa;
+  color: #070707;
+  border: 0.5px solid black;
+}
+
+/* Overlay form styling */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-grid input[type="text"],
+.form-grid input[type="tel"],
+.form-grid input[type="date"],
+.form-grid input[type="time"] {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+}
+
+.phone-input span {
+  background-color: #eee;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  color: black;
+}
+.phone-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Buttons */
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color:black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #faf7f7;
+  color: black;
+}
+
+.cancel-button {
+  padding: 10px 20px;
+  background-color: black;
+  color: #fdfafa;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  background-color: #f0f0f0;
+  color: #070707;
+}
+
+
+/* Overlay form styling */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-grid input[type="text"],
+.form-grid input[type="tel"],
+.form-grid input[type="date"],
+.form-grid input[type="time"] {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+}
+
+.phone-input span {
+  background-color: #eee;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  color: black;
+}
+.phone-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Buttons */
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #e67e22;
+            color: white;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content li a {
+            color: white;
+            padding: 10px 15px;
+            display: block;
+            text-decoration: none;
+        }
+
+        .dropdown-content li a:hover {
+            background-color: #d35400;
+        }
+
+        .filter-bar {
+            padding: 15px 20px;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+        }
+
+        .filter-label {
+            margin-right: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .filter-select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-right: 15px;
+        }
+

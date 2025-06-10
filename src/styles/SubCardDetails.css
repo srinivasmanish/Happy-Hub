@@ -1,0 +1,100 @@
+.detail-container{
+  /* background: #000; */
+  padding-top: 120px;
+  margin-left: 200px;
+}
+  .back-btn {
+    padding: 8px 16px;
+    background: #20bff0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: -175px;
+    transition: background 0.2s;
+  }
+  .back-btn:hover {
+    background: #241e25c5;
+  }
+  .detail-content {
+    display: flex;
+    gap: 100px;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 12px; 
+     box-shadow: 0 2px 8px rgba(160,32,240,0.10);
+    padding:50px;
+    max-width: 800px;
+  
+  }
+  .detail-image {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #eee;
+  }
+  .detail-info {
+    
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+  }
+  .detail-title {
+    font-size: 1.5rem;
+    color: #2d054d;
+    margin-bottom: 16px;
+  }
+  .detail-pricing {
+    margin-bottom: 16px;
+  }
+  .detail-price {
+    font-size: 1.3rem;
+    color: #1a7cff;
+    font-weight: bold;
+    margin-right: 16px;
+  }
+  .detail-original-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 1rem;
+  }
+  .detail-pincode {
+    margin-bottom: 24px;
+  }
+  .pincode-input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 180px;
+  }
+  .detail-actions {
+    display: flex;
+    gap: 16px;
+  }
+  .add-cart-btn {
+    background: #1a7cff;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .book-now-btn {
+    background: #a020f0;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .add-cart-btn:hover {
+    background: #005ac1;
+  }
+  .book-now-btn:hover {
+    background: #7c13cc;
+  }
+  
