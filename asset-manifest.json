@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/event-managment-app/static/css/main.ac54308f.css",
-    "main.js": "/event-managment-app/static/js/main.54a06dfb.js",
-    "static/js/453.4868b003.chunk.js": "/event-managment-app/static/js/453.4868b003.chunk.js",
-    "static/media/Logo.png": "/event-managment-app/static/media/Logo.41e51b6f3e27827836d7.png",
-    "index.html": "/event-managment-app/index.html",
-    "main.ac54308f.css.map": "/event-managment-app/static/css/main.ac54308f.css.map",
-    "main.54a06dfb.js.map": "/event-managment-app/static/js/main.54a06dfb.js.map",
-    "453.4868b003.chunk.js.map": "/event-managment-app/static/js/453.4868b003.chunk.js.map"
+    "main.css": "/Happyhub/static/css/main.ac54308f.css",
+    "main.js": "/Happyhub/static/js/main.8a33f0a9.js",
+    "static/js/453.4868b003.chunk.js": "/Happyhub/static/js/453.4868b003.chunk.js",
+    "static/media/Logo.png": "/Happyhub/static/media/Logo.41e51b6f3e27827836d7.png",
+    "index.html": "/Happyhub/index.html",
+    "main.ac54308f.css.map": "/Happyhub/static/css/main.ac54308f.css.map",
+    "main.8a33f0a9.js.map": "/Happyhub/static/js/main.8a33f0a9.js.map",
+    "453.4868b003.chunk.js.map": "/Happyhub/static/js/453.4868b003.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac54308f.css",
-    "static/js/main.54a06dfb.js"
+    "static/js/main.8a33f0a9.js"
   ]
 }
